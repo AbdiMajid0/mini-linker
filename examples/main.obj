@@ -1,0 +1,13 @@
+MINIOBJ 1
+MODULE main
+
+SECTION .text
+WORDS 7000 0000 F000
+ENDSECTION
+
+DEFINE main .text 0
+EXTERN helloWorld
+
+RELOC .text 1 ABS16 helloWorld
+
+END

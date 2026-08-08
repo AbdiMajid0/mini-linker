@@ -1,0 +1,14 @@
+MINIOBJ 1
+        MODULE module2
+
+        SECTION .text
+        WORDS 7200 0000
+        ENDSECTION
+
+        SECTION .data
+                WORDS 0010 0020
+                ENDSECTION
+
+                DEFINE topla .text 0
+
+                END

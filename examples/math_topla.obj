@@ -1,0 +1,10 @@
+MINIOBJ 1
+MODULE MathTopla
+
+SECTION .text
+WORDS AAAA BBBB
+ENDSECTION
+
+DEFINE topla .text 0
+
+END
